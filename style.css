@@ -11,6 +11,7 @@
 
 html {
   box-sizing: border-box;
+  background: var(--belyy);
 }
 
 *,
@@ -32,3 +33,72 @@ img{
   max-width: 100%;
 }
 
+.wrap {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+.main_menu {
+}
+.main_title {
+}
+.pet {
+}
+.section_title {
+}
+.card {
+}
+.pict_wrap {
+}
+.card_title {
+}
+.card_text {
+}
+.slider {
+}
+.slider_wrap {
+}
+.slider_item {
+}
+.slider_img {
+}
+.room_description {
+}
+.slider_controls {
+}
+.points {
+}
+.arrows {
+}
+.slider_wrap_reviews {
+}
+.slider_items_reviews {
+}
+.reviews_card {
+}
+.reviews_logo_wrap {
+}
+.rewies_card_description {
+}
+.signature {
+}
+.name {
+}
+.date {
+}
+.contacts_item {
+}
+.contacts_item_title {
+}
+.contacts_item_subtitle {
+}
+.map_wrap {
+}
+.rigts {
+}
+.politic {
+}
