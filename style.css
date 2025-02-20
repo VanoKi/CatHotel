@@ -1,3 +1,14 @@
+:root {
+  --prototip: #141312;
+  --tekst: #1a212f;
+  --oranzhevyy: #ff7236;
+  --zheltyy: #fac663;
+  --belyy: #fffefd;
+  --font-family: "Lato", sans-serif;
+  --second-family: "Rubik", sans-serif;
+  --third-family: "Boomboom", sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -20,3 +31,4 @@ li {
 img{
   max-width: 100%;
 }
+
