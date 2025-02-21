@@ -72,6 +72,7 @@ header .wrap {
 .main_menu ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 30px;
   font-family: var(--font-family);
   font-weight: 600;
