@@ -12,6 +12,7 @@
 html {
   box-sizing: border-box;
   background: var(--belyy);
+  color: var(--tekst);
 }
 
 *,
@@ -69,6 +70,44 @@ header .wrap {
 .main_title {
   padding: 153px 0 153px 100px;
 }
+
+.main_title h1{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 62px;
+  margin-bottom: 25px;
+}
+
+.main_title_subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.main_title__city {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.main_title button {
+  border-radius: 25px;
+  width: 206px;
+  height: 50px;
+  background: var(--belyy);
+  box-shadow: 0 5px 25px 0 rgba(26, 13, 47, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#main {
+  background: #000;
+}
+
 .pet {
 }
 .section_title {
