@@ -167,8 +167,13 @@ header .wrap {
 
 /*main end*/
 
+/* advantages */
+
 #advantages {
-  padding-top: 140px;
+  padding-top: 133px;
+  background-image: url(assets/advantages_bg/paw.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 #advantages .wrap {
@@ -176,14 +181,14 @@ header .wrap {
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 30px;
-  row-gap: 20px;
+  row-gap: 13px;
 }
 
 .section_title {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 36px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .card {
@@ -195,7 +200,7 @@ header .wrap {
 }
 
 .card svg {
-  margin-bottom: 35px;
+  margin-bottom: 24px;
 }
 
 .card_title {
@@ -203,7 +208,7 @@ header .wrap {
   font-weight: 500;
   font-size: 22px;
   line-height: 140%;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
 }
 
 .card_text {
@@ -212,6 +217,8 @@ header .wrap {
   font-size: 16px;
   line-height: 140%;
 }
+
+/*advantages end*/
 
 .slider {
 }
