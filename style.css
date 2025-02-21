@@ -75,6 +75,8 @@ section {
   width: 1170px;
 }
 
+/*header*/
+
 header .wrap {
   display: flex;
   justify-content: space-between;
@@ -102,6 +104,8 @@ header .wrap {
 .main_menu li {
   margin-top: 3px;
 }
+
+/*header end*/
 
 .main_title {
   padding: 149px 0 153px 100px;
@@ -145,7 +149,15 @@ header .wrap {
 }
 
 #main {
-  background-image: url(assets/main_bg/котейка\ \(1\)\ 1.jpg);
+  background-image: url(assets/main_bg/Vector.svg),
+                    linear-gradient(70deg, #f0c971 0%, rgba(240, 201, 113, 0) 100%), 
+                    linear-gradient(90deg, rgba(240, 201, 113, 0.43) 40.85%, rgba(240, 201, 113, 0) 56.67%),
+                     url(assets/main_bg/котейка\ \(1\)\ 1.jpg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: -110px 0,
+                        center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .pet {
