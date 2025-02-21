@@ -33,6 +33,12 @@ img{
   max-width: 100%;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .wrap {
   margin: 0 auto;
   width: 1170px;
