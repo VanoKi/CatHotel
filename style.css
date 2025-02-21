@@ -171,27 +171,48 @@ header .wrap {
   padding-top: 140px;
 }
 
+#advantages .wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 20px;
+}
+
 .section_title {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 36px;
+  margin-bottom: 70px;
 }
 
 .card {
   border-radius: 8px;
   width: 370px;
-  height: 321px;
   box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
   background: #fff;
   padding: 30px;
 }
 
-.pict_wrap {
+.card svg {
+  margin-bottom: 35px;
 }
+
 .card_title {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  margin-bottom: 20px;
 }
+
 .card_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
 }
+
 .slider {
 }
 .slider_wrap {
