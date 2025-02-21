@@ -40,12 +40,14 @@ h1, h2, h3, h4, p {
 
 button {
   cursor: pointer;
+  border: 0;
 }
 
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1366px;
 }
 
 .wrap {
@@ -108,8 +110,12 @@ header .wrap {
   box-shadow: 0 5px 25px 0 rgba(26, 13, 47, 0.1);
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 20px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  padding-left: 30px;
 }
 
 #main {
