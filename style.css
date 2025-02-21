@@ -107,6 +107,8 @@ header .wrap {
 
 /*header end*/
 
+/*main*/
+
 .main_title {
   padding: 149px 0 153px 100px;
 }
@@ -163,12 +165,27 @@ header .wrap {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.pet {
+/*main end*/
+
+#advantages {
+  padding-top: 140px;
 }
+
 .section_title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
 }
+
 .card {
+  border-radius: 8px;
+  width: 370px;
+  height: 321px;
+  box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
+  background: #fff;
+  padding: 30px;
 }
+
 .pict_wrap {
 }
 .card_title {
