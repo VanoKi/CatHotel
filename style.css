@@ -14,6 +14,20 @@
   src: url(assets/fonts/boomboom.otf);
 }
 
+@font-face {
+  font-family: "Lato";
+  src: url(assets/fonts/Lato-Regular.ttf);
+  src: url(assets/fonts/Lato-SemiBold.ttf);
+  src: url(assets/fonts/Lato-Medium.ttf);
+  src: url(assets/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(assets/fonts/Rubikmedium.ttf);
+  src: url(assets/fonts/Rubikbold.ttf);
+}
+
 html {
   box-sizing: border-box;
   background: var(--belyy);
@@ -71,6 +85,7 @@ header .wrap {
   flex-direction: column;
   align-items: center;
   gap: 3px;
+  margin-top: 4px;
   margin-bottom: 12px;
 }
 
@@ -82,6 +97,10 @@ header .wrap {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 16px;
+}
+
+.main_menu li {
+  margin-top: 3px;
 }
 
 .main_title {
@@ -97,8 +116,8 @@ header .wrap {
 
 .main_title_subtitle {
   font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 20px;
   margin-bottom: 40px;
 }
 
