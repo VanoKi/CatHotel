@@ -9,6 +9,11 @@
   --third-family: "Boomboom", sans-serif;
 }
 
+@font-face {
+  font-family: "Boomboom";
+  src: url(assets/fonts/boomboom.otf);
+}
+
 html {
   box-sizing: border-box;
   background: var(--belyy);
