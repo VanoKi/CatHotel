@@ -224,11 +224,19 @@ header .wrap {
 
 #rooms {
   padding-top: 137px;
+  background-image: url(assets/rooms_imgs/fish.svg);
+  background-repeat: no-repeat;
+  background-position: 0 137px;
 }
 
 .slider {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-end; */
 }
 .slider_wrap {
+  max-width: 1030px;
+  margin-left: auto;
 }
 .slider_item {
 }
