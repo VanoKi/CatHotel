@@ -235,15 +235,48 @@ header .wrap {
   max-width: 1030px;
   margin-left: auto;
 }
+
 .slider_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
 }
+
 .slider_img {
+  max-width: 600px;
+  position: relative;
+  z-index: 0;
 }
+
 .room_description {
   max-width: 500px;
+  max-height: 284px;
   padding: 40px 117px 40px 100px;
   box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
+  border-radius: 8px;
+  position: absolute;
+  right: 71px;
+  z-index: 1;
+  /* left: -71px; */
 }
+
+.room_description h4 {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.room_description_ul {
+  list-style-image: url(assets/rooms_imgs/marker.svg);
+}
+
+.room_description li {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .slider_controls {
 }
 .points {
