@@ -223,16 +223,16 @@ header .wrap {
 /* rooms */
 
 #rooms {
-  padding-top: 137px;
+  padding-top: 165px;
   background-image: url(assets/rooms_imgs/fish.svg);
   background-repeat: no-repeat;
-  background-position: 0 137px;
+  background-position: 0 183px;
 }
 
 .slider {
 }
 .slider_wrap {
-  max-width: 1030px;
+  max-width: 1100px;
   margin-left: auto;
 }
 
@@ -250,15 +250,19 @@ header .wrap {
 }
 
 .room_description {
-  max-width: 500px;
-  max-height: 284px;
-  padding: 40px 117px 40px 100px;
+  max-width: 523px;
+  /* max-height: 287px; */
+  padding: 40px 117px 40px 122px;
   box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
   border-radius: 8px;
   position: absolute;
-  right: 71px;
+  right: 67px;
   z-index: 1;
   /* left: -71px; */
+  background-color: var(--belyy);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .room_description h4 {
@@ -268,13 +272,32 @@ header .wrap {
 }
 
 .room_description_ul {
-  list-style-image: url(assets/rooms_imgs/marker.svg);
+  /* list-style-image: url(assets/rooms_imgs/marker.svg); */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.room_description li {
+.room_description ul li {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.room_description_ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 16px; /* Размер маркера */
+  height: 16px;
+  background-image: url("assets/rooms_imgs/marker.svg");
+  background-size: cover;
 }
 
 .slider_controls {
