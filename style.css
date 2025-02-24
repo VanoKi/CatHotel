@@ -416,6 +416,15 @@ header .wrap {
 }
 .date {
 }
+
+/* reviews end */
+
+/* contacts */
+
+#contacts {
+  padding-top: 140px;
+}
+
 .contacts_item {
 }
 .contacts_item_title {
