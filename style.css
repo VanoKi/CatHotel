@@ -194,13 +194,14 @@ header .wrap {
 .card {
   border-radius: 8px;
   width: 370px;
+  min-height: 321px;
   box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
   background: #fff;
-  padding: 30px 0 30px 30px;
+  padding: 30px 29px 30px 30px;
 }
 
 .card svg {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .card_title {
@@ -223,10 +224,10 @@ header .wrap {
 /* rooms */
 
 #rooms {
-  padding-top: 165px;
+  padding-top: 129px;
   background-image: url(assets/rooms_imgs/fish.svg);
   background-repeat: no-repeat;
-  background-position: 0 183px;
+  background-position: 0 146px;
 }
 
 .slider {
@@ -241,6 +242,7 @@ header .wrap {
   flex-direction: row;
   align-items: center;
   position: relative;
+  padding-bottom: 39px;
 }
 
 .slider_img {
@@ -305,8 +307,9 @@ header .wrap {
 }
 
 .slider_controls {
-  max-width: 545px;
+  max-width: 544px;
   margin-left: auto;
+  margin-right: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -317,6 +320,12 @@ header .wrap {
 }
 
 .points {
+  display: flex;
+  gap: 12px;
+}
+
+.points svg{
+  cursor: pointer;
 }
 
 .arrows {
@@ -327,17 +336,29 @@ header .wrap {
 }
 
 .arrow_wrap {
-  width: 60px;
-  height: 60px;
+  width: 36px;
+  height: 36px;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 5px 25px 0 rgba(26, 13, 47, 0.1);
+  cursor: pointer;
 }
 
 .arrow_wrap_right-arrow {
   rotate: 180deg;
+}
+
+/* rooms end */
+
+/* reviews */
+
+#reviews {
+  padding-top: 134px;
+  background-image: url(assets/reviews_bg/paw.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .slider_wrap_reviews {
