@@ -358,7 +358,7 @@ header .wrap {
   padding-top: 134px;
   background-image: url(assets/reviews_bg/paw.svg);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: top 22px right 0;
 }
 
 .slider_wrap_reviews {
