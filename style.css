@@ -363,7 +363,7 @@ header .wrap {
 }
 
 .slider_wrap_reviews {
-  margin-left: 365px;
+  margin-left: 302px;
   padding-bottom: 41px;
 }
 
@@ -378,7 +378,7 @@ header .wrap {
   width: 470px;
   box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
   background: #fff;
-  padding: 35px 64px 35px 40px;
+  padding: 35px 36px 35px 68px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -391,8 +391,8 @@ header .wrap {
   font-size: 72px;
   color: var(--zheltyy);
   position: absolute;
-  top: 28px;
-  left: 10px;
+  top: 21px;
+  left: 33px;
 }
 
 .rewies_card_description {
