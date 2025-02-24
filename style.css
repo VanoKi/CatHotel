@@ -362,17 +362,39 @@ header .wrap {
 }
 
 .slider_wrap_reviews {
+
 }
+
 .slider_items_reviews {
+  display: flex;
+  flex-direction: row;
 }
+
 .reviews_card {
+  border-radius: 8px;
+  width: 470px;
+  height: 206px;
+  box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
+  background: #fff;
+  padding: 35px;
+
 }
+
 .reviews_logo_wrap {
 }
 .rewies_card_description {
 }
+
 .signature {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #848484;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 .name {
 }
 .date {
