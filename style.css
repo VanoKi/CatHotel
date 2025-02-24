@@ -321,8 +321,23 @@ header .wrap {
 }
 
 .arrows {
-  /* display: flex;
-  flex-direction: row; */
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.arrow_wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 25px 0 rgba(26, 13, 47, 0.1);
+}
+
+.arrow_wrap_right-arrow {
+  rotate: 180deg;
 }
 
 .slider_wrap_reviews {
