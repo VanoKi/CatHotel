@@ -299,6 +299,11 @@ header .wrap {
   background-size: cover;
 }
 
+.button_book {
+  background: var(--oranzhevyy);
+  color: var(--belyy);
+}
+
 .slider_controls {
 }
 .points {
