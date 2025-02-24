@@ -305,11 +305,26 @@ header .wrap {
 }
 
 .slider_controls {
+  max-width: 545px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
 }
+
+.slider_controls_active circle{
+  fill: var(--zheltyy);
+}
+
 .points {
 }
+
 .arrows {
+  /* display: flex;
+  flex-direction: row; */
 }
+
 .slider_wrap_reviews {
 }
 .slider_items_reviews {
