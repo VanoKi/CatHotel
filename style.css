@@ -387,7 +387,9 @@ header .wrap {
 }
 
 .reviews_logo_wrap {
-  font-size: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 72px;
   color: var(--zheltyy);
   position: absolute;
   top: 28px;
