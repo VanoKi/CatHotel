@@ -373,16 +373,30 @@ header .wrap {
 .reviews_card {
   border-radius: 8px;
   width: 470px;
-  height: 206px;
+  /* height: 206px; */
   box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
   background: #fff;
   padding: 35px;
 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
 }
 
 .reviews_logo_wrap {
+  font-size: 40px;
+  color: var(--zheltyy);
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
+
 .rewies_card_description {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 .signature {
